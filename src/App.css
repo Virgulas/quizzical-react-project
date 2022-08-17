@@ -1,0 +1,54 @@
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.Decoration {
+  position: fixed;
+  width: 297px;
+  height: 235px;
+} 
+
+.Yellow {
+  background: #FFFAD1;
+  border-radius: 22% 78% 28% 72% / 46% 72% 28% 54%;
+  left: 100%;
+  transform: translate(-70%, -40%);
+  z-index: 0;
+}
+
+.Blue {
+  position: fixed;
+  width: 297px;
+  height: 235px;
+  background: #DEEBF8;
+  border-radius: 72% 28% 74% 26% / 52% 57% 43% 48%;
+  top: 100%;
+  transform: translate(-40%, -60%);
+  z-index: 0;
+}
+
+@media (max-width: 1170px) {
+  .Yellow {
+    transform: translate(-30%, -50%);
+  }
+  .Blue {
+    transform: translate(-70%, -30%);
+  }
+}
+@media (max-width: 931px) {
+  .Yellow {
+    transform: translate(-10%, -50%);
+  }
+  .Blue {
+    transform: translate(-85%, -30%);
+  }
+}
+@media (max-width: 486px) {
+  .Yellow {
+    opacity: 0;
+  }
+  .Blue {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,31 @@
+.Starting-screen {
+    text-align: center;
+    line-height: 40px;
+    color: #293264;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.Start-button {
+    background: #4D5B9E;
+    border-radius: 15px;
+    border: none;
+    width: 193px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+    text-align: center;
+    color: #F5F7FB;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.Start-button:hover {
+    background: #2a3466;
+}
